@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PracticalTest</string>
+    <string name="title">Road Tax Calculator</string>
+    <string name="RegNum">Registration Number</string>
+    <string name="engineCap">Engine Capacity (cc)</string>
+    <string name="state">State</string>
+    <string name="totalRdTax">Total Road Tax (RM)</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="contact">Contact Us</string>
+    <string name="regNumHint">ABC1234</string>
+    <string name="engineCapHint">1000</string>
+    <string name="contactEmail">calculateTax@gmail.com</string>
+    <string name="contactPhone">+60123456789</string>
+
+    <string-array name="stateArr">
+        <item>Peninsular Malaysia</item>
+        <item>Sabah and Sarawak</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

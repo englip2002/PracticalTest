@@ -1,0 +1,25 @@
+STEP 1:
+build.grandle (Module:app) >
+buildFeatures { dataBinding = true }
+need to snyc the file
+
+STEP 2:
+app > java > my.edu.tarc.name > create New Kotlin Class/File
+
+STEP 3:
+activity_main.xml > add <layout><androidx....><</androidx....></layout>
+
+STEP 4:
+<androidx....> > move first 3 lines of "xmlns:xxx" to <layout xmlnsHere>
+
+STEP 5:
+<layout> > insert <data><variable name="variableName" type="my.edu.tarc.ClassName/></data>
+
+STEP 6:
+update view attributes such as @{variableName.attribute1}
+
+STEP 7:
+onCreate() >
+val binding = ActivityMainBinding.inflate(layoutInflater)
+setContentView(binding.root)
+binding.variableName = ClassName(attribute1, attribute2)
